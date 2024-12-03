@@ -15,78 +15,81 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css" />
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <div class="container-fluid p-0">
       <div class="row vh-100 gx-0">
-        <nav class="navbar col-sm-3 d-none d-sm-block bg-warning">
-          <h1>
-            <a href="index.html" class="navbar-brand d-flex align-items-center">
-              InMotion
-            </a>
-          </h1>
-          <button
-            class="btn nav-item"
-            data-bs-toggle="modal"
-            data-bs-target="#signUpModal"
-          >
-            Sign up
-          </button>
-          <div
-            class="modal fade"
-            id="signUpModal"
-            tabindex="-1"
-            aria-labelledby="signUpModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h1 class="modal-title fs-5" id="signUpModalLabel">
-                    Sign up
-                  </h1>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <form>
+        <nav
+          
+          class="navbar col-sm-3 d-none d-sm-block bg-warning position-sticky h-100 p-2 border border-black"
+        >
+          <div class="d-flex justify-content-center align-items-center h-100 flex-column text-center row-gap-5">
+            <div>
+              <a href="index.html" class="navbar-brand">
+                <h1>InMotion</h1>
+              </a>
+            </div>
+            <button
+              class="btn nav-item bg-info"
+              data-bs-toggle="modal"
+              data-bs-target="#signUpModal"
+            >
+              Sign up
+            </button>
+          </div>
+        </nav>
+        <div
+          class="modal fade"
+          id="signUpModal"
+          tabindex="-1"
+          aria-labelledby="signUpModalLabel"
+          aria-hidden="true"
+        >
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="signUpModalLabel">Sign up</h1>
+                <button
+                  type="button"
+                  class="btn-close"
+                  data-bs-dismiss="modal"
+                  aria-label="Close"
+                ></button>
+              </div>
+              <div class="modal-body">
+                <form>
+                  <div>
+                    <p>Your name</p>
                     <div>
-                      <p>Your name</p>
-                      <div>
-                        <input type="text" placeholder="First" />
-                        <input type="text" placeholder="Last" />
-                      </div>
+                      <input type="text" placeholder="First" />
+                      <input type="text" placeholder="Last" />
                     </div>
-                    <div>
-                      <label for="email">Email address</label>
-                      <input type="email" name="email" />
-                    </div>
-                    <div>
-                      <label for="password">Password</label>
-                      <input type="password" name="password" />
-                    </div>
-                    <div class="modal-footer">
-                      <button
-                        type="button"
-                        class="btn btn-secondary"
-                        data-bs-dismiss="modal"
-                      >
-                        Sign Up
-                      </button>
-                    </div>
-                  </form>
-                </div>
+                  </div>
+                  <div>
+                    <label for="email">Email address</label>
+                    <input type="email" name="email" />
+                  </div>
+                  <div>
+                    <label for="password">Password</label>
+                    <input type="password" name="password" />
+                  </div>
+                </form>
+              </div>
+              <div class="modal-footer">
+                <button
+                  type="button"
+                  class="btn btn-secondary"
+                  data-bs-dismiss="modal"
+                >
+                  Sign Up
+                </button>
               </div>
             </div>
           </div>
-        </nav>
-        <div class="col-12 col-sm-9 bg-info overflow-y-scroll">
+        </div>
+        <div class="col-12 col-sm-9 bg-info overflow-auto h-100">
           <nav
             class="navbar col-sm-3 d-block d-sm-none bg-warning d-flex align-items-center justify-content-center"
           >
@@ -110,9 +113,9 @@
             <h2>Find Your Perfect Workout Class Anytime, Anywhere</h2>
           </div>
           <div class="ps-3">
-            <h3>Classes near you</h3>
-            <div class="overflow-x-scroll d-flex column-gap-3">
-              <div class="col-lg-5 col-md-6 col-sm-7 mb-4">
+            <h3 class="mb-3 mt-4">Classes near you</h3>
+            <div class="overflow-x-auto d-flex column-gap-3">
+              <div class="col-lg-4 col-md-6 col-sm-7 col-8 mb-4">
                 <div class="card border-black">
                   <img
                     src="photos/spin-class.jpg"
@@ -130,7 +133,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5 col-md-6 col-sm-7 mb-4">
+              <div class="col-lg-4 col-md-6 col-sm-7 col-8 mb-4">
                 <div class="card border-black">
                   <img
                     src="photos/spin-class.jpg"
@@ -148,7 +151,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5 col-md-6 col-sm-7 mb-4">
+              <div class="col-lg-4 col-md-6 col-sm-7 col-8 mb-4">
                 <div class="card border-black">
                   <img
                     src="photos/spin-class.jpg"
@@ -166,7 +169,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5 col-md-6 col-sm-7 mb-4">
+              <div class="col-lg-4 col-md-6 col-sm-7 col-8 mb-4">
                 <div class="card border-black">
                   <img
                     src="photos/spin-class.jpg"
@@ -184,7 +187,7 @@
                   </div>
                 </div>
               </div>
-              <div class="col-lg-5 col-md-6 col-sm-7 mb-4">
+              <div class="col-lg-4 col-md-6 col-sm-7 col-8 mb-4">
                 <div class="card border-black">
                   <img
                     src="photos/spin-class.jpg"
