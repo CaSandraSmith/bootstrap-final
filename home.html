@@ -36,60 +36,376 @@
           </div>
         </nav>
         <div class="col-12 col-sm-9 bg-info overflow-auto h-100">
-            <nav
-              class="navbar col-sm-3 d-block d-sm-none bg-warning d-flex align-items-center justify-content-center sticky-top"
-            >
-              <a href="home.html" class="navbar-brand d-flex align-items-center">
-                InMotion
-              </a>
-            </nav>
-            <div class="ps-3 mb-5">
-                <h1>Welcome back!</h1>
+          <nav
+            class="navbar col-sm-3 d-block d-sm-none bg-warning d-flex align-items-center justify-content-center sticky-top"
+          >
+            <a href="home.html" class="navbar-brand d-flex align-items-center">
+              InMotion
+            </a>
+          </nav>
+          <div class="ps-3 mb-5">
+            <h1>Welcome back!</h1>
+          </div>
+          <section class="ps-3 mb-5 pe-sm-0 pe-3">
+            <h2>Upcoming Schedule Preview</h2>
+            <div>
+              <div class="d-flex flex-wrap column-gap-4">
+                <div class="col-lg-3 col-md-5 col-sm-10 col-12 mb-4 d-flex">
+                  <div class="card border-black w-100 p-4">
+                    <h3>Monday, Dec 9th</h3>
+                    <div class="accordion" id="accordionMon">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button bg-warning collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOneMon"
+                            aria-expanded="false"
+                            aria-controls="collapseOneMon"
+                          >
+                            HIIT @ 6:30 AM
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseOneMon"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionMon"
+                        >
+                          <div class="accordion-body">
+                            <img
+                              src="photos/spin-class.jpg"
+                              alt="spin classroom"
+                              class="w-100"
+                            />
+                            <p>@ Heat</p>
+                            <p>Instructor: Jane Halloway</p>
+                            <p>
+                              A fast-paced workout blending intense intervals
+                              and short recoveries to burn calories and build
+                              strength. Perfect for all levels—join Jane for an
+                              energizing challenge!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwoTues"
+                            aria-expanded="false"
+                            aria-controls="collapseTwoTues"
+                          >
+                            Sunset Yoga @ 6 PM
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseTwoTues"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionExample"
+                        >
+                          <div class="accordion-body">
+                            <img
+                              src="photos/yoga-studio.webp"
+                              alt="empty yoga room"
+                              class="w-100"
+                            />
+                            <p>@ Asana Bliss</p>
+                            <p>Instructor: Jasper Quinn</p>
+                            <p>
+                              Unwind and reconnect as you flow through gentle
+                              poses under the warm glow of the setting sun.
+                              Perfect for all levels, this class brings serenity
+                              to your evening.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-10 col-12 mb-4 d-flex">
+                  <div class="card border-black w-100 p-4">
+                    <h3>Tuesday, Dec 10th</h3>
+                    <div class="accordion" id="accordionTues">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button bg-warning collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOneTues"
+                            aria-expanded="false"
+                            aria-controls="collapseOneTues"
+                          >
+                            HIIT @ 6:30 AM
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseOneTues"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionTues"
+                        >
+                          <div class="accordion-body">
+                            <img
+                              src="photos/spin-class.jpg"
+                              alt="spin classroom"
+                              class="w-100"
+                            />
+                            <p>@ Heat</p>
+                            <p>Instructor: Jane Halloway</p>
+                            <p>
+                              A fast-paced workout blending intense intervals
+                              and short recoveries to burn calories and build
+                              strength. Perfect for all levels—join Jane for an
+                              energizing challenge!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-10 col-12 mb-4 d-flex">
+                  <div class="card border-black w-100 p-4">
+                    <h3>Wednesday, Dec 11th</h3>
+                    <div class="accordion" id="accordionWed">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button bg-warning collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOneWed"
+                            aria-expanded="false"
+                            aria-controls="collapseOneWed"
+                          >
+                            HIIT @ 6:30 AM
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseOneWed"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionWed"
+                        >
+                          <div class="accordion-body">
+                            <img
+                              src="photos/spin-class.jpg"
+                              alt="spin classroom"
+                              class="w-100"
+                            />
+                            <p>@ Heat</p>
+                            <p>Instructor: Jane Halloway</p>
+                            <p>
+                              A fast-paced workout blending intense intervals
+                              and short recoveries to burn calories and build
+                              strength. Perfect for all levels—join Jane for an
+                              energizing challenge!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button bg-warning collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwoWed"
+                            aria-expanded="false"
+                            aria-controls="collapseTwoWed"
+                          >
+                            HIIT @ 6:30 AM
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseTwoWed"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionWed"
+                        >
+                          <div class="accordion-body">
+                            <img
+                              src="photos/spin-class.jpg"
+                              alt="spin classroom"
+                              class="w-100"
+                            />
+                            <p>@ Heat</p>
+                            <p>Instructor: Jane Halloway</p>
+                            <p>
+                              A fast-paced workout blending intense intervals
+                              and short recoveries to burn calories and build
+                              strength. Perfect for all levels—join Jane for an
+                              energizing challenge!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-10 col-12 mb-4 d-flex">
+                  <div class="card border-black d-flex flex-column w-100 p-4">
+                    <h3>Thursday, Dec 12th</h3>
+                    <p>No classes scheduled</p>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-10 col-12 mb-4 d-flex">
+                  <div class="card border-black w-100 p-4 h-100">
+                    <h3>Friday, Dec 13th</h3>
+                    <div class="accordion" id="accordionFri">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button bg-warning collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOneFri"
+                            aria-expanded="false"
+                            aria-controls="collapseOneFri"
+                          >
+                            HIIT @ 6:30 AM
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseOneFri"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFri"
+                        >
+                          <div class="accordion-body">
+                            <img
+                              src="photos/spin-class.jpg"
+                              alt="spin classroom"
+                              class="w-100"
+                            />
+                            <p>@ Heat</p>
+                            <p>Instructor: Jane Halloway</p>
+                            <p>
+                              A fast-paced workout blending intense intervals
+                              and short recoveries to burn calories and build
+                              strength. Perfect for all levels—join Jane for an
+                              energizing challenge!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button bg-warning collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwoFri"
+                            aria-expanded="false"
+                            aria-controls="collapseTwoFri"
+                          >
+                            HIIT @ 6:30 AM
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseTwoFri"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionFri"
+                        >
+                          <div class="accordion-body">
+                            <img
+                              src="photos/spin-class.jpg"
+                              alt="spin classroom"
+                              class="w-100"
+                            />
+                            <p>@ Heat</p>
+                            <p>Instructor: Jane Halloway</p>
+                            <p>
+                              A fast-paced workout blending intense intervals
+                              and short recoveries to burn calories and build
+                              strength. Perfect for all levels—join Jane for an
+                              energizing challenge!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-10 col-12 mb-4 d-flex">
+                  <div class="card border-black w-100 p-4">
+                    <h3>Saturday, Dec 14th</h3>
+                    <div class="accordion w-100" id="accordionSat">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header">
+                          <button
+                            class="accordion-button bg-warning collapsed"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#collapseOneSat"
+                            aria-expanded="false"
+                            aria-controls="collapseOneSat"
+                          >
+                            HIIT @ 6:30 AM
+                          </button>
+                        </h2>
+                        <div
+                          id="collapseOneSat"
+                          class="accordion-collapse collapse"
+                          data-bs-parent="#accordionSat"
+                        >
+                          <div class="accordion-body">
+                            <img
+                              src="photos/spin-class.jpg"
+                              alt="spin classroom"
+                              class="w-100"
+                            />
+                            <p>@ Heat</p>
+                            <p>Instructor: Jane Halloway</p>
+                            <p>
+                              A fast-paced workout blending intense intervals
+                              and short recoveries to burn calories and build
+                              strength. Perfect for all levels—join Jane for an
+                              energizing challenge!
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-5 col-sm-10 col-12 mb-4 d-flex">
+                  <div class="card border-black d-flex flex-column w-100 p-4">
+                    <h3>Sunday, Dec 15th</h3>
+                    <p>No classes scheduled</p>
+                  </div>
+                </div>
+              </div>
             </div>
-            <section class="ps-3 mb-5">
-                <h2>Upcoming Schedule Preview</h2>
-                <div>
-
-                </div>
-                <div>
-                    <button class="btn btn-primary">View Full Schedule</button>
-                </div>
-            </section>
-            <section class="ps-3 mb-5">
-                <h2>Recommended for You</h2>
-                <div>
-
-                </div>
-            </section>
-            <section class="ps-3 mb-5">
-                <h2>Top-Rated studios near you</h2>
-                <div>
-
-                </div>
-            </section>
-            <section class="ps-3 mb-5">
-                <h2>Instructor Highlight</h2>
-                <div>
-
-                </div>
-            </section>
-            <div class="text-center">
-                <button class="btn btn-secondary">Invite a Friend</button>
+            <div>
+              <button class="btn btn-primary">View Full Schedule</button>
             </div>
+          </section>
+          <section class="ps-3 mb-5">
+            <h2>Recommended for You</h2>
+            <div></div>
+          </section>
+          <section class="ps-3 mb-5">
+            <h2>Top-Rated studios near you</h2>
+            <div></div>
+          </section>
+          <section class="ps-3 mb-5">
+            <h2>Instructor Highlight</h2>
+            <div></div>
+          </section>
+          <div class="text-center">
+            <button class="btn btn-secondary">Invite a Friend</button>
+          </div>
         </div>
 
-        <footer>
-            © 2024
-          </footer>
-          <div
-            class="col-sm-3 d-block d-sm-none bg-warning d-flex align-items-center justify-content-center sticky-bottom pt-3 pb-3"
-          >
-            <button
-              class="btn nav-item bg-info"
-            >
-              Log out
-            </button>
-          </div>
+        <footer>© 2024</footer>
+        <div
+          class="col-sm-3 d-block d-sm-none bg-warning d-flex align-items-center justify-content-center sticky-bottom pt-3 pb-3"
+        >
+          <button class="btn nav-item bg-info">Log out</button>
+        </div>
       </div>
     </div>
   </body>
