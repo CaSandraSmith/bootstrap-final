@@ -7,8 +7,8 @@
 }
 
 #nav-logo {
-  display: block; /* Remove inline spacing below image */
-  margin: 0 auto; /* Center the image horizontally */
+  display: block;
+  margin: 0 auto;
 }
 
 .navbar-brand-wrapper {
@@ -16,13 +16,13 @@
 }
 
 #logo-text {
-  left: 50%; /* Center horizontally */
-  top: 80%; /* Adjust this value to move the text down or up */
-  transform: translateX(-50%); /* Correct the centering */
+  left: 50%;
+  top: 80%;
+  transform: translateX(-50%);
   font-size: 4vw;
 }
 
-.navbar {
+.navbar, .lower-buttons {
   background-color: #dfd2f5;
 }
 
@@ -31,8 +31,9 @@
 }
 
 .lp-modal-button {
-  background-color: #2e3a3d;
+  background-color: #B7C297;
   color: #f9f7f1;
+  font-weight: 500;
 }
 
 .lp-modal-button:hover {
@@ -40,10 +41,10 @@
 }
 
 .navbar-small {
-    height: 8vh;
+    height: 10vh;
 }
 
 #nav-logo-small {
-    max-height: 100%;  /* Limit the image height to 100% of the parent container */
+    height: 8vh;
     width: auto;
 }
