@@ -1,0 +1,49 @@
+* {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-logo {
+  display: block; /* Remove inline spacing below image */
+  margin: 0 auto; /* Center the image horizontally */
+}
+
+.navbar-brand-wrapper {
+  display: inline-block;
+}
+
+#logo-text {
+  left: 50%; /* Center horizontally */
+  top: 80%; /* Adjust this value to move the text down or up */
+  transform: translateX(-50%); /* Correct the centering */
+  font-size: 4vw;
+}
+
+.navbar {
+  background-color: #dfd2f5;
+}
+
+.dark-gray-text {
+  color: #2e3a3d;
+}
+
+.lp-modal-button {
+  background-color: #2e3a3d;
+  color: #f9f7f1;
+}
+
+.lp-modal-button:hover {
+  background-color: #f9f7f1;
+}
+
+.navbar-small {
+    height: 8vh;
+}
+
+#nav-logo-small {
+    max-height: 100%;  /* Limit the image height to 100% of the parent container */
+    width: auto;
+}

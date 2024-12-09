@@ -15,32 +15,49 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/indexStyles.css" />
+    <link rel="icon" href="photos/logo.png" />
   </head>
   <body>
     <div class="container-fluid p-0">
       <div class="row vh-100 gx-0">
         <nav
-          class="navbar col-sm-3 d-none d-sm-block bg-warning position-sticky h-100 p-2"
+          class="navbar col-sm-3 d-none d-sm-block position-sticky h-100 p-2"
         >
           <div
             class="d-flex justify-content-center align-items-center h-100 flex-column text-center row-gap-5"
           >
             <div>
-              <a href="index.html" class="navbar-brand">
-                <h1>InMotion</h1>
+              <a
+                href="index.html"
+                class="navbar-brand position-relative text-center navbar-brand-wrapper"
+              >
+                <img
+                  src="photos/logo.png"
+                  alt="InMotion logo"
+                  class="w-100"
+                  id="nav-logo"
+                />
+                <h1 class="position-absolute dark-gray-text" id="logo-text">
+                  InMotion
+                </h1>
               </a>
             </div>
             <button
-              class="btn nav-item bg-info rounded-pill p-3"
+              class="btn nav-item rounded-pill p-3 lp-modal-button"
               data-bs-toggle="modal"
               data-bs-target="#logInModal"
             >
               Log in
             </button>
             <button
-              class="btn nav-item bg-info rounded-pill p-3"
+              class="btn nav-item rounded-pill p-3 lp-modal-button"
               data-bs-toggle="modal"
               data-bs-target="#signUpModal"
             >
@@ -145,10 +162,15 @@
         </div>
         <div class="col-12 col-sm-9 bg-info overflow-auto h-100">
           <nav
-            class="navbar col-sm-3 d-block d-sm-none bg-warning d-flex align-items-center justify-content-center sticky-top"
+            class="navbar col-sm-3 d-block d-sm-none d-flex align-items-center justify-content-center sticky-top navbar-small"
           >
             <a href="index.html" class="navbar-brand d-flex align-items-center">
-              InMotion
+              <img
+                src="photos/logo.png"
+                alt="InMotion logo"
+                id="nav-logo-small"
+              />
+              <h1 class="dark-gray-text">InMotion</h1>
             </a>
           </nav>
           <div class="d-flex mb-3">
