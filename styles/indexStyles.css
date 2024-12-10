@@ -139,7 +139,7 @@ section > h3 {
   text-align: center;
 }
 
-.benefit-section-wraper {
+.benefit-section-wraper, footer {
   background-color: #b7c297;
 }
 
@@ -164,8 +164,8 @@ section > h3 {
 }
 
 .pricing-wrapper {
-  flex: 0 1 auto; /* Allows flexible sizing within the grid */
-  max-width: 250px; /* Ensures consistent width */
+  flex: 0 1 auto;
+  max-width: 250px;
 }
 
 .pricing-wrapper .card {
@@ -174,4 +174,8 @@ section > h3 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+footer {
+
 }
