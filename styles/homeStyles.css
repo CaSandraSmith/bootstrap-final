@@ -67,3 +67,11 @@ footer {
 .instructor-name {
   font-size: 3vh;
 }
+
+.class-near-wrapper .card-img-top {
+  height: 200px;
+}
+
+.studio-highlight-wrapper .card-img-top {
+  height: 200px;
+}
