@@ -175,3 +175,7 @@ section > h3 {
   flex-direction: column;
   justify-content: space-between;
 }
+
+.class-near-wrapper .card-img-top {
+  height: 200px;
+}
