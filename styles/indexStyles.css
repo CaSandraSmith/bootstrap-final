@@ -162,3 +162,16 @@ section > h3 {
   margin: 0;
   font-size: 2.5vh;
 }
+
+.pricing-wrapper {
+  flex: 0 1 auto; /* Allows flexible sizing within the grid */
+  max-width: 250px; /* Ensures consistent width */
+}
+
+.pricing-wrapper .card {
+  height: 100%;
+  min-height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
