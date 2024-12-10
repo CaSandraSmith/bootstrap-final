@@ -54,3 +54,16 @@ footer {
   height: 8vh;
   width: auto;
 }
+
+.right-side {
+  background-color: #f9f7f1;
+}
+
+.instructor-image {
+  height: 20vw;
+  width: 20vw;
+}
+
+.instructor-name {
+  font-size: 3vh;
+}
