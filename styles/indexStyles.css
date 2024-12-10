@@ -103,3 +103,37 @@
   margin: 0;
   padding: 0;
 }
+
+.right-side {
+  background-color: #F9F7F1;
+}
+
+#index-page-title {
+  font-size: 5vh;
+  font-weight: 500;
+}
+
+section > h3 {
+  font-size: 4vh;
+  font-weight: 400;
+}
+
+.tutorial-wrapper img {
+  width: 20vh;
+  aspect-ratio: 1 / 1;
+  margin: 0 auto;
+}
+
+.tutorial-wrapper > div {
+  display: grid;
+  grid-template-rows: auto auto;
+  row-gap: 1rem;
+}
+
+.tutorial-wrapper > div :first-child {
+  align-self: end;
+}
+
+.tutorial-wrapper h4 {
+  margin: 0;
+}
