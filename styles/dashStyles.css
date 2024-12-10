@@ -54,3 +54,49 @@ footer {
   height: 8vh;
   width: auto;
 }
+
+#right-section {
+  background-color: #f9f7f1;
+  background-size: 100% 100%;
+  background-position: 0px 0px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;
+  background-image: radial-gradient(
+      49% 81% at 45% 47%,
+      #f9f7f1 0%,
+      #073aff00 100%
+    ),
+    radial-gradient(113% 91% at 17% -2%, #b09acf 1%, #ff000000 99%),
+    radial-gradient(142% 91% at 83% 7%, #dfd2f5 1%, #ff000000 99%),
+    radial-gradient(142% 91% at -6% 74%, #a998c6 1%, #ff000000 99%),
+    radial-gradient(142% 91% at 111% 84%, #4b2e83 0%, #a998c6ff 100%);
+}
+
+#right-section * {
+    color: #2e3a3d;
+}
+
+#dash-title {
+    font-size: 8vh;
+}
+
+.dash-highlights-wrapper .card-text {
+    margin: 0;
+    padding: 0;
+}
+
+.highlight-number {
+    aspect-ratio: 1/1;
+    background-color: #E4E4E4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 5vh;
+}
+
+.dash-highlights-wrapper > div {
+    background-color: #f9f7f1;
+}
+
+.dash-highlights-wrapper h3 {
+    font-weight: 300;
+}
