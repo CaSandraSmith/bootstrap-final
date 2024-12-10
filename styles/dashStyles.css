@@ -95,7 +95,7 @@ footer {
 
 .dash-highlights-wrapper:not(.dash-favs-wrapper) > div {
   background-color: #f9f7f1;
-  min-height: 33vh;
+  min-height: 40vh;
 }
 
 .dash-favs-wrapper > div {
