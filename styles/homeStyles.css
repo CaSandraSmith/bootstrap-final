@@ -70,10 +70,12 @@ footer {
 
 .class-near-wrapper .card-img-top {
   height: 200px;
+  object-fit: cover;
 }
 
 .studio-highlight-wrapper .card-img-top {
   height: 200px;
+  object-fit: cover;
 }
 
 .accordion-button {
@@ -93,5 +95,15 @@ footer {
 
 .schedule-button:hover {
   background-color: #dfd2f5;
+  color: #f9f7f1; 
+}
+
+#inviteModal .modal-content {
+  background-color: #f9f7f1;
+  color: #6B7B5E;
+}
+
+#inviteModal button {
+  background-color: #6B7B5E;
   color: #f9f7f1; 
 }
