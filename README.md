@@ -1,16 +1,18 @@
-# InMotion - Sprint 2
+# InMotion - Sprint 3
 
 ## Landing page
-<img width="1664" alt="Screenshot 2024-12-09 at 4 31 00 AM" src="https://github.com/user-attachments/assets/7d8880ef-65fe-44d9-9d1e-72a4f0a26ee7">
-<img width="1664" alt="Screenshot 2024-12-09 at 4 31 22 AM" src="https://github.com/user-attachments/assets/efd718c2-c212-423f-9492-c2e0af3e802a">
-<img width="1664" alt="Screenshot 2024-12-09 at 4 31 38 AM" src="https://github.com/user-attachments/assets/4d9ec2ba-26a5-4927-bf61-79f69bedbe5e">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 13 55 AM" src="https://github.com/user-attachments/assets/fb9f9d8c-9c16-4b84-ba54-be8aeed6510c">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 14 19 AM" src="https://github.com/user-attachments/assets/27f078b0-cb6d-42ae-9051-ee7a7187b9cf">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 14 36 AM" src="https://github.com/user-attachments/assets/fe8a4ce4-434f-41b0-b17d-70d2d1d03850">
+
 
 ## Home
-<img width="1664" alt="Screenshot 2024-12-09 at 4 32 27 AM" src="https://github.com/user-attachments/assets/45f21549-347c-4ded-82b1-688e3a55eb4e">
-<img width="1664" alt="Screenshot 2024-12-09 at 4 32 39 AM" src="https://github.com/user-attachments/assets/b0ca4c3f-de4e-470b-9102-16a0155b4caf">
-<img width="1664" alt="Screenshot 2024-12-09 at 4 32 56 AM" src="https://github.com/user-attachments/assets/d7415cde-13dc-433e-a66a-33fdf890810b">
-<img width="1664" alt="Screenshot 2024-12-09 at 4 33 11 AM" src="https://github.com/user-attachments/assets/59d29a35-ae8e-42e3-9a87-81138c02c334">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 14 56 AM" src="https://github.com/user-attachments/assets/17f7034c-edf0-4324-924d-e3090083df40">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 15 08 AM" src="https://github.com/user-attachments/assets/1a70a269-dbde-4fb8-b2e5-7c0759bdf93f">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 15 20 AM" src="https://github.com/user-attachments/assets/e06920e3-48d4-418a-92e3-9f78230b4c6f">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 15 34 AM" src="https://github.com/user-attachments/assets/cbfa0621-f5ec-478f-9748-6bf1a7cdd362">
+
 
 ## Dashboard
-<img width="1664" alt="Screenshot 2024-12-09 at 4 33 28 AM" src="https://github.com/user-attachments/assets/71dd2337-74e7-484a-95d5-58e3f8f0236c">
-<img width="1664" alt="Screenshot 2024-12-09 at 4 33 43 AM" src="https://github.com/user-attachments/assets/b1cd5f43-4b43-405d-985e-65a0902424c7">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 15 49 AM" src="https://github.com/user-attachments/assets/424973e7-46c1-4013-9b56-157ba0a8d466">
+<img width="1404" alt="Screenshot 2024-12-10 at 6 16 04 AM" src="https://github.com/user-attachments/assets/082abbfb-2e89-4025-bd3c-3cf7ce7e4c0e">
