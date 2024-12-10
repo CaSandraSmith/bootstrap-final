@@ -22,7 +22,8 @@
   font-size: 4vw;
 }
 
-.navbar, .lower-buttons {
+.navbar,
+.lower-buttons {
   background-color: #dfd2f5;
 }
 
@@ -31,7 +32,7 @@
 }
 
 .lp-modal-button {
-  background-color: #B7C297;
+  background-color: #b7c297;
   color: #f9f7f1;
   font-weight: 500;
 }
@@ -41,47 +42,46 @@
 }
 
 .navbar-small {
-    height: 10vh;
+  height: 10vh;
 }
 
 #nav-logo-small {
-    height: 8vh;
-    width: auto;
+  height: 8vh;
+  width: auto;
 }
 
 .index-modal-background {
-  background: radial-gradient(circle at 20% 30%, #A998C6, transparent 90%),
-  radial-gradient(circle at 80% 60%, #dfd2f5, transparent 90%);
-  background-color: #F9F7F1;
+  background: radial-gradient(circle at 20% 30%, #a998c6, transparent 90%),
+    radial-gradient(circle at 80% 60%, #dfd2f5, transparent 90%);
+  background-color: #f9f7f1;
   min-height: 30vh;
 }
 
 .index-modal-background * {
-  color: #4B2E83;
+  color: #4b2e83;
 }
 
 .index-modal-background button.btn-close {
-  background-color: #F9F7F1;
+  background-color: #f9f7f1;
   border: transparent;
 }
 
 .index-modal-background button.btn-close:hover {
-  background-color: #4B2E83;
-  color: #F9F7F1;
+  background-color: #4b2e83;
+  color: #f9f7f1;
 }
 
 .index-modal-background button {
   border: transparent;
 
-  background-color: #4B2E83;
-  color: #F9F7F1;
+  background-color: #4b2e83;
+  color: #f9f7f1;
 }
 
 .index-modal-background button:hover {
-  background-color: #F9F7F1;
-  color: #4B2E83;
+  background-color: #f9f7f1;
+  color: #4b2e83;
 }
-
 
 .index-modal-background h1 {
   font-size: 4vh;
@@ -105,7 +105,7 @@
 }
 
 .right-side {
-  background-color: #F9F7F1;
+  background-color: #f9f7f1;
 }
 
 #index-page-title {
@@ -119,21 +119,46 @@ section > h3 {
 }
 
 .tutorial-wrapper img {
-  width: 20vh;
+  /* width: 20vh; */
+  height: 100%;
   aspect-ratio: 1 / 1;
   margin: 0 auto;
 }
 
 .tutorial-wrapper > div {
   display: grid;
-  grid-template-rows: auto auto;
+  grid-template-rows: 70% 30%;
   row-gap: 1rem;
-}
-
-.tutorial-wrapper > div :first-child {
-  align-self: end;
+  align-items: start;
+  justify-items: center;
+  min-height: 35vh;
 }
 
 .tutorial-wrapper h4 {
   margin: 0;
+  text-align: center;
+}
+
+.benefit-section-wraper {
+  background-color: #b7c297;
+}
+
+.benefit-item img {
+  aspect-ratio: 1 / 1;
+  object-fit: contain;
+}
+
+.benefit-item {
+  display: grid;
+  grid-template-rows: 2fr 1fr;
+  row-gap: 1rem;
+  align-items: start;
+  justify-items: center;
+  aspect-ratio: 2 / 1;
+}
+
+.benefit-item p {
+  padding: 0;
+  margin: 0;
+  font-size: 2.5vh;
 }
