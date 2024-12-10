@@ -48,3 +48,58 @@
     height: 8vh;
     width: auto;
 }
+
+.index-modal-background {
+  background: radial-gradient(circle at 20% 30%, #A998C6, transparent 90%),
+  radial-gradient(circle at 80% 60%, #dfd2f5, transparent 90%);
+  background-color: #F9F7F1;
+  min-height: 30vh;
+}
+
+.index-modal-background * {
+  color: #4B2E83;
+}
+
+.index-modal-background button.btn-close {
+  background-color: #F9F7F1;
+  border: transparent;
+}
+
+.index-modal-background button.btn-close:hover {
+  background-color: #4B2E83;
+  color: #F9F7F1;
+}
+
+.index-modal-background button {
+  border: transparent;
+
+  background-color: #4B2E83;
+  color: #F9F7F1;
+}
+
+.index-modal-background button:hover {
+  background-color: #F9F7F1;
+  color: #4B2E83;
+}
+
+
+.index-modal-background h1 {
+  font-size: 4vh;
+  font-weight: 500;
+}
+
+.index-modal-background input {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: transparent;
+}
+
+.form-field-wrapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5vh;
+}
+
+#sign-up-name-label {
+  margin: 0;
+  padding: 0;
+}
