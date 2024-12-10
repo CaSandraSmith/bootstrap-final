@@ -70,33 +70,76 @@ footer {
     radial-gradient(142% 91% at 111% 84%, #4b2e83 0%, #a998c6ff 100%);
 }
 
-#right-section * {
-    color: #2e3a3d;
+#right-section *:not(.disabled) {
+  color: #2e3a3d;
 }
 
 #dash-title {
-    font-size: 8vh;
+  font-size: 8vh;
 }
 
 .dash-highlights-wrapper .card-text {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .highlight-number {
-    aspect-ratio: 1/1;
-    background-color: #E4E4E4;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    font-size: 5vh;
+  aspect-ratio: 1/1;
+  background-color: #e4e4e4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 5vh;
 }
 
 .dash-highlights-wrapper > div {
-    background-color: #f9f7f1;
+  background-color: #f9f7f1;
 }
 
 .dash-highlights-wrapper h3 {
-    font-weight: 300;
+  font-weight: 300;
+}
+
+#table * {
+  background-color: #f9f7f1;
+}
+
+#table {
+  table-layout: fixed;
+}
+
+#table button {
+  border: transparent;
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Horizontally center the content */
+  align-items: center; /* Vertically center the content */
+
+}
+
+#table td {
+  /* aspect-ratio: 2 / 1; */
+  width: 3vw;
+  height: 5vh;
+  padding: 0;
+  vertical-align: middle;
+}
+
+#table tbody tr {
+  height: 10vh;
+}
+
+.disabled {
+    color: #4a4a4a81;
+    text-decoration: line-through;
+    line-height: 1;
+    vertical-align: middle;
+}
+
+.fa-solid.fa-circle {
+    font-size: 0.8vh;
+    bottom: 1.9vh;
 }
