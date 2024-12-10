@@ -75,3 +75,23 @@ footer {
 .studio-highlight-wrapper .card-img-top {
   height: 200px;
 }
+
+.accordion-button {
+  background-color: #8E9978;
+  color: #f9f7f1;
+}
+
+.accordion-button[aria-expanded="true"] {
+  color: #f9f7f1;
+  background-color: #b7c297;
+}
+
+.schedule-button {
+  background-color: #6B7B5E;
+  color: #f9f7f1; 
+}
+
+.schedule-button:hover {
+  background-color: #dfd2f5;
+  color: #f9f7f1; 
+}
