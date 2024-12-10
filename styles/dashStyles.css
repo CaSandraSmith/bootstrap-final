@@ -70,7 +70,7 @@ footer {
     radial-gradient(142% 91% at 111% 84%, #4b2e83 0%, #a998c6ff 100%);
 }
 
-#right-section *:not(.disabled) {
+#right-section *:not(.disabled, .modal-content *) {
   color: #2e3a3d;
 }
 
@@ -117,7 +117,6 @@ footer {
   display: flex;
   justify-content: center; /* Horizontally center the content */
   align-items: center; /* Vertically center the content */
-
 }
 
 #table td {
@@ -133,13 +132,42 @@ footer {
 }
 
 .disabled {
-    color: #4a4a4a81;
-    text-decoration: line-through;
-    line-height: 1;
-    vertical-align: middle;
+  color: #4a4a4a81;
+  text-decoration: line-through;
+  line-height: 1;
+  vertical-align: middle;
 }
 
 .fa-solid.fa-circle {
-    font-size: 0.8vh;
-    bottom: 1.9vh;
+  font-size: 0.8vh;
+  bottom: 1.9vh;
+}
+
+.modal-content {
+  background-color: #b7c297;
+}
+
+.modal-content * {
+  color: #f9f7f1;
+}
+
+.header-text {
+  font-size: 5vh;
+}
+
+.modal-body div {
+  border-color: #f9f7f1;
+}
+
+.modal-body h2 {
+  font-size: 4vh;
+}
+
+.modal-body p {
+  font-size: 2.5vh;
+}
+
+.modal-body button {
+    background-color: #4A4A4A;
+    border: transparent;
 }

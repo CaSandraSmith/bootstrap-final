@@ -11,9 +11,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const modalTitle = modal.querySelector(".modal-title");
       if (modalTitle) {
-        console.log("in conditional", modalTitle)
         modalTitle.innerText = `December ${date}th`;
-        
+        modalTitle.className = "header-text"
       }
     });
   });
